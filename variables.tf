@@ -43,7 +43,7 @@ variable "mysql_password" {
   type        = string
 }
 
-variable "mysql_database_name" {
+variable "mysql_database" {
   description = "The name of the RDS database instance"
   type        = string
   default     = "rndx_client_db"
