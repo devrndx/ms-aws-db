@@ -42,7 +42,7 @@ resource "aws_db_instance" "mysql-db" {
   engine            = "mysql"
   engine_version    = "5.7"
   instance_class    = "db.t2.micro"
-  name              = var.mysql_database
+  name              = var.mysql_database_name
   identifier        = "microservices-mysql"
 
   username             = var.mysql_user
