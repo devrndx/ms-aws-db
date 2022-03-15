@@ -1,10 +1,10 @@
 /*
 output "mysql_instance_id" {
-  value = aws_db_instance.mysql-db.id
+  value = aws_db_instance.mysql-db-rndx.id
 }
 
 output "mysql_endpoint" {
-  value = aws_db_instance.mysql-db.endpoint
+  value = aws_db_instance.mysql-db-rndx.endpoint
 }
 
 output "redis_instance_id" {
