@@ -32,6 +32,12 @@ variable "env_name" {
   type        = string
 }
 
+variable "mysql_identifier" {
+  description = "The mysql user id that will be set for the RDS database instance"
+  type        = string
+  default     = "microservices-mysql-rndx"
+}
+
 variable "mysql_user" {
   description = "The mysql user id that will be set for the RDS database instance"
   type        = string
